@@ -11,13 +11,11 @@ This project was generated with:
 ### Angular CLI
 
 Install
-
 ```
 $ npm install -g angular-cli
 ```
 
 New Project
-
 ```
 $ ng new PROJECTA4CLI
 ```
@@ -25,12 +23,11 @@ $ ng new PROJECTA4CLI
 ### Angular MATERIAL
 
 Install Angular Material and Angular CDK
-
 ```
 $ npm install --save @angular/material @angular/cdk
 ```
-Animations
 
+Animations
 ```
 $ npm install --save @angular/animations
 ```
@@ -44,12 +41,11 @@ References:
 Run `ng serve` for a dev server. Navigate to `http://localhost:4444/`. The app will automatically reload if you change any of the source files.
 
 “Port 4444 is already in use” when running the ng serve command
-
 ```
 $ netstat -ano | findstr :4444
 ```
-then kill only port 4444 (kill the red PID): LISTENING and ESTABLISHED numbers
 
+then kill only port 4444 (kill the red PID): LISTENING and ESTABLISHED numbers
 ```
 $ taskkill /PID 15940 /F
 ```
